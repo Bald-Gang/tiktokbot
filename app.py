@@ -1,6 +1,6 @@
 
 def main():
 
-    print("hello world")
+    print("hang minorities")
 
 main()
