@@ -1,0 +1,43 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "f3dc37ca77d44ca022baf119f92fd3c4ac43443c26a4cb3a2b250597134a65ea"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "ffmpeg": {
+            "hashes": [
+                "sha256:6931692c890ff21d39938433c2189747815dca0c60ddc7f9bb97f199dba0b5b9"
+            ],
+            "index": "pypi",
+            "version": "==1.4"
+        },
+        "future": {
+            "hashes": [
+                "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
+            ],
+            "index": "pypi",
+            "version": "==0.18.2"
+        },
+        "you-get": {
+            "hashes": [
+                "sha256:421b71ee644afc63581c2d57bf6785c0e65c51d9debe74b8449685c90fd56f44",
+                "sha256:c1f299f358a33ab391b36237874e0be0ae12f138834e48a0f20bf61f2d754024"
+            ],
+            "index": "pypi",
+            "version": "==0.4.1432"
+        }
+    },
+    "develop": {}
+}
