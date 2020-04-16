@@ -2,6 +2,7 @@
 input.txt
 *.mp4
 *.mpg
+vids/
 
 
 # Byte-compiled / optimized / DLL files

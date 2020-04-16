@@ -24,6 +24,11 @@ with open(args[1]) as f:    # reads input file
         inputs.append(line.strip('\n'))
 
 
+# generates file structure
+os.mkdir('vids')
+os.mkdir('vids\\inputs')
+os.mkdir('vids\\inters')
+
 for i in range(len(inputs)):    # downloads all inputs into vids/inputs/
     system(you_get + ' -o vids\\inputs -O input'+str(i) + ' ' + inputs[i])
 downloaded = 0
